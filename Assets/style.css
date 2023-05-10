@@ -1,0 +1,132 @@
+:root {
+    --sectionsbackground: red;
+    --border: 5px solid;
+    --fontgroup: 'Times New Roman', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    font-family: var(--fontgroup); 
+    font-weight: bolder;
+    justify-content: center;
+    font-size: xx-large;
+    color: cornsilk;
+    text-align: center;
+    border-top: 0px;
+    border: var(--border);
+    border-radius: 7px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 0px;
+    border: var(--border);
+    border-radius: 7px;
+    font-family: var(--fontgroup);
+    font-weight: bolder;
+    font-size:xx-large;
+    color: cornsilk;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    padding-left: 5px;
+}
+
+.grid-container h2{
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.item{
+    justify-self: center;
+    width: 175px;
+    height: 250px;
+}
+
+.cityList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: var(--fontgroup);
+}
+
+.btn {
+    width: fit-content;
+    align-self: self-start;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0d6efd;
+}
+
+#newButton {
+    width: 250px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#currentWeather{
+    background-color: white;
+    color: blue;
+    border-style: solid;
+    border-color: blue;
+    font-family: var(--fontgroup);
+    border-radius: 10px;
+}
+
+#currentWeather li{
+    list-style-type: none;
+    font-size: large;
+    text-align: center;
+}
+
+#currentWeather img{
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+   
+}
+
+
+
+.Day{
+    background-color: blue;
+    color: cornsilk;
+    font-family: var(--fontgroup);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Day img{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+.input-group{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2px;
+}
+
+.container{
+    width: 100%;
+}
+
+#headingsearch{
+    text-align: center;
+    font-family: var(--fontgroup);
+    font-weight: bolder;
+    font-size:medium
+}
+
+
